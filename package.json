@@ -1,0 +1,55 @@
+{
+  "name": "to-num",
+  "version": "1.0.0",
+  "description": "Converts the given value to a number.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint index.js",
+    "pretest": "npm run lint",
+    "test": "mocha -R spec",
+    "test:cov": "rm -rf ./test/coverage && istanbul cover _mocha --dir ./test/coverage -- -R spec",
+    "test:rpt": "npm run test:cov && coveralls < ./test/coverage/lcov.info",
+    "prepublish": "npm test"
+  },
+  "keywords": [
+    "to",
+    "parse",
+    "convert",
+    "converter",
+    "parser",
+    "type",
+    "number",
+    "length",
+    "int",
+    "integer",
+    "float",
+    "decimal",
+    "binary",
+    "octal",
+    "hex",
+    "NaN",
+    "infinity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bubkoo/to-num.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bubkoo/to-num/issues"
+  },
+  "homepage": "https://github.com/bubkoo/to-num#readme",
+  "devDependencies": {
+    "jshint": "^2.9.1",
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "is-function": "^1.0.1",
+    "is-nil": "file:///Users/Johnny/Documents/github.bubkoo/is-nil",
+    "is-object": "^1.0.1",
+    "is-symbol": "^1.0.1"
+  }
+}
