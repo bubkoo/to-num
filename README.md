@@ -73,6 +73,14 @@ toNumber(new Object());    // => NaN
 
 ## Related
 
+- [to-integer](https://github.com/bubkoo/to-integer) - Converts the given value to an integer.
+- [to-length](https://github.com/bubkoo/to-length) - Converts value to an integer suitable for use as the length of an array-like object.
+- [to-str](https://github.com/bubkoo/to-str) - Converts the given value to a string.
+- [to-lower](https://github.com/bubkoo/to-lower) - Converts string, as a whole, to lower case.
+- [to-upper](https://github.com/bubkoo/to-upper) - Converts string, as a whole, to upper case.
+- [to-path](https://github.com/bubkoo/to-path) - Converts value to a property path array. 
+- [to-source-code](https://github.com/bubkoo/to-source-code.git) - Converts function to its source code.
+
 ## Contributing
 
 Pull requests and stars are highly welcome.

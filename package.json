@@ -48,7 +48,7 @@
   },
   "dependencies": {
     "is-function": "^1.0.1",
-    "is-nil": "file:///Users/Johnny/Documents/github.bubkoo/is-nil",
+    "is-nil": "^1.0.0",
     "is-object": "^1.0.1",
     "is-symbol": "^1.0.1"
   }
