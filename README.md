@@ -80,8 +80,7 @@ toNumber(new Object());    // => NaN
 - [to-upper](https://github.com/bubkoo/to-upper) - Converts string, as a whole, to upper case.
 - [to-path](https://github.com/bubkoo/to-path) - Converts value to a property path array. 
 - [to-source-code](https://github.com/bubkoo/to-source-code.git) - Converts function to its source code.
-- [upper-first](https://github.com/bubkoo/upper-first) - Converts the first character of string to upper case.
-- [lower-first](https://github.com/bubkoo/lower-first) - Converts the first character of string to lower case.
+
 
 ## Contributing
 
