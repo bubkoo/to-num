@@ -3,10 +3,10 @@
 > Converts the given value to a number.
 
 
-[![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/bubkoo/to-num/blob/master/LICENSE)
+[![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/gearcase/to-num/blob/master/LICENSE)
 
-[![build:?](https://img.shields.io/travis/bubkoo/to-num/master.svg?style=flat-square)](https://travis-ci.org/bubkoo/to-num)
-[![coverage:?](https://img.shields.io/coveralls/bubkoo/to-num/master.svg?style=flat-square)](https://coveralls.io/github/bubkoo/to-num)
+[![build:?](https://img.shields.io/travis/gearcase/to-num/master.svg?style=flat-square)](https://travis-ci.org/gearcase/to-num)
+[![coverage:?](https://img.shields.io/coveralls/gearcase/to-num/master.svg?style=flat-square)](https://coveralls.io/github/gearcase/to-num)
 
 
 ## Install
@@ -18,7 +18,7 @@ $ npm install --save to-num
 
 ## Usage
 
-> For more use-cases see the [tests](https://github.com/bubkoo/to-num/blob/master/test/spec/index.js)
+> For more use-cases see the [tests](https://github.com/gearcase/to-num/blob/master/test/spec/index.js)
 
 ```js
 var toNumber = require('to-num');
@@ -73,17 +73,17 @@ toNumber(new Object());    // => NaN
 
 ## Related
 
-- [to-integer](https://github.com/bubkoo/to-integer) - Converts the given value to an integer.
-- [to-length](https://github.com/bubkoo/to-length) - Converts value to an integer suitable for use as the length of an array-like object.
-- [to-str](https://github.com/bubkoo/to-str) - Converts the given value to a string.
-- [to-lower](https://github.com/bubkoo/to-lower) - Converts string, as a whole, to lower case.
-- [to-upper](https://github.com/bubkoo/to-upper) - Converts string, as a whole, to upper case.
-- [to-path](https://github.com/bubkoo/to-path) - Converts value to a property path array. 
-- [to-source-code](https://github.com/bubkoo/to-source-code.git) - Converts function to its source code.
+- [to-integer](https://github.com/gearcase/to-integer) - Converts the given value to an integer.
+- [to-length](https://github.com/gearcase/to-length) - Converts value to an integer suitable for use as the length of an array-like object.
+- [to-str](https://github.com/gearcase/to-str) - Converts the given value to a string.
+- [to-lower](https://github.com/gearcase/to-lower) - Converts string, as a whole, to lower case.
+- [to-upper](https://github.com/gearcase/to-upper) - Converts string, as a whole, to upper case.
+- [to-path](https://github.com/gearcase/to-path) - Converts value to a property path array. 
+- [to-source-code](https://github.com/gearcase/to-source-code.git) - Converts function to its source code.
 
 
 ## Contributing
 
 Pull requests and stars are highly welcome.
 
-For bugs and feature requests, please [create an issue](https://github.com/bubkoo/to-num/issues/new).
+For bugs and feature requests, please [create an issue](https://github.com/gearcase/to-num/issues/new).

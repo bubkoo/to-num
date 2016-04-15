@@ -1,6 +1,6 @@
 {
   "name": "to-num",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts the given value to a number.",
   "main": "index.js",
   "scripts": {
@@ -32,13 +32,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bubkoo/to-num.git"
+    "url": "git+https://github.com/gearcase/to-num.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bubkoo/to-num/issues"
+    "url": "https://github.com/gearcase/to-num/issues"
   },
-  "homepage": "https://github.com/bubkoo/to-num#readme",
+  "homepage": "https://github.com/gearcase/to-num#readme",
   "devDependencies": {
     "jshint": "^2.9.1",
     "chai": "^3.5.0",
